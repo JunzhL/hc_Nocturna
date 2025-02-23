@@ -32,13 +32,13 @@ Nocturna is a full-stack project that uses a FastAPI backend and a React Native 
 ### Installation
 
 1. Navigate to the js backend directory:
-   1. Create a config folder in the root directory go into the config folder, add `default.json`, put the MongoDB connection string in there
-   2. Then run `npm i` to install the dependencies
+     - Create a config folder in the root directory go into the config folder, add `default.json`, put the MongoDB connection string in there
+     - Then run `npm i` to install the dependencies
 2. Navigate to the py backend directory:
-  1. Create and activate python virtual environment with python version 3.8.x
-  2. `pip install requirements.txt` to install the dependencies
-  3. Create .env file with the Gemini_Api_Key
-  4. Run app.py
-  5. Run capture.py, make sure you have a camera attached to the computer.
+     - Create and activate python virtual environment with python version 3.8.x
+     - `pip install requirements.txt` to install the dependencies
+     - Create .env file with the Gemini_Api_Key
+     - Run app.py
+     - Run capture.py, make sure you have a camera attached to the computer.
 3. Navigate to the front end, and `npm i` to install the dependencies, then run `app.tsx`.
 
