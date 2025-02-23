@@ -1,0 +1,21 @@
+{
+  "name": "hackcanada",
+  "version": "1.0.0",
+  "description": "Hack Canada!!",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@feathersjs/configuration": "^5.0.32",
+    "@feathersjs/express": "^5.0.32",
+    "@feathersjs/feathers": "^5.0.32",
+    "@google/generative-ai": "^0.22.0",
+    "dotenv": "^16.4.7",
+    "feathers-mongodb": "^6.4.1",
+    "feathers-schema": "^0.3.4",
+    "mongodb": "^6.13.1",
+    "validate.js": "^0.13.1",
+    "validator": "^13.12.0"
+  }
+}
